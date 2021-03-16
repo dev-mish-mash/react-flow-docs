@@ -11,6 +11,7 @@ const initialElements = [
   {
     id: 'connectionline-1',
     type: 'input',
+    sourcePosition: 'right', 
     data: { label: 'Node 1' },
     position: { x: 250, y: 5 },
   },

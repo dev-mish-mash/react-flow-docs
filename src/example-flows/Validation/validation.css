@@ -1,31 +1,39 @@
-.validationflow .react-flow__node {
-  width: 150px;
-  border-radius: 5px;
-  padding: 10px;
+.scenarioFlow .react-flow__node {
+  width: fit-content;
+  min-width: 100px;
+  max-width: 200px;
+  border-radius: 3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   color: #555;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
+  background: #e6e6e9;
+  border: 0.1rem solid #ddd;
 }
 
-.validationflow .react-flow__node-customnode {
-  background: #e6e6e9;
-  border: 1px solid #ddd;
+.scenarioFlow .react-flow__edge-textbg {
+  cursor: pointer;
 }
 
 .react-flow__node-custominput .react-flow__handle {
   background: #e6e6e9;
 }
 
-.validationflow .react-flow__node-custominput {
+.scenarioFlow .react-flow__node-custominput {
   background: #fff;
-
 }
 
-.validationflow .react-flow__handle-connecting {
+.scenarioFlow .react-flow__handle {
+  background-color: gray;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.scenarioFlow .react-flow__handle-connecting {
   background: #ff6060;
 }
 
-.validationflow .react-flow__handle-valid {
+.scenarioFlow .react-flow__handle-valid {
   background: #55dd99;
 }

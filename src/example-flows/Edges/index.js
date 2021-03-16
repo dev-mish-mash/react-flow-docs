@@ -87,7 +87,7 @@ const initialElements = [
     target: 'edges-5',
     animated: true,
     label: 'animated styled edge',
-    style: { stroke: 'red' },
+    style: { stroke: 'red', strokeWidth: 3 },
   },
   {
     id: 'edges-e5-6',
@@ -101,7 +101,7 @@ const initialElements = [
     id: 'edges-e5-7',
     source: 'edges-5',
     target: 'edges-7',
-    label: 'label with styled bg',
+    label: 'Condtions: 0',
     labelBgPadding: [8, 4],
     labelBgBorderRadius: 4,
     labelBgStyle: { fill: '#FFCC00', color: '#fff', fillOpacity: 0.7 },
